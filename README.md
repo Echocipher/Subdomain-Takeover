@@ -27,7 +27,8 @@ blog：https://echocipher.github.io
 ```
 git clone https://github.com/Echocipher/Subdomain-Takeover.git
 cd Subdomain-Takeover/
-pip -r requirements.txt
+pip install
+-r requirements.txt
 python subdomain_takeover.py -u <target>
 ```
 
