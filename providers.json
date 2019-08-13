@@ -12,7 +12,7 @@
     {
         "name":"unbounce",
         "cname":["unbouncepages.com"],
-        "response":["The requested URL / was not found on this server.", "The requested URL was not found on this server"]
+        "response":["Sorry, the page you were looking for doesn’t exist.", "The requested URL was not found on this server"]
     },
     {
         "name":"tumblr",
@@ -27,17 +27,12 @@
     {
         "name":"instapage",
         "cname":["pageserve.co", "secure.pageserve.co", "https://instapage.com/"],
-        "response":["You've Discovered A Missing Link. Our Apologies!"]
+        "response":["Looks Like You're Lost","The page you're looking for is no longer available."]
     },
     {
         "name":"desk",
         "cname":["desk.com"],
         "response":["Please try again or try Desk.com free for 14 days.", "Sorry, We Couldn't Find That Page"]
-    },
-    {
-        "name":"tictail",
-        "cname":["tictail.com", "domains.tictail.com"],
-        "response":["Building a brand of your own?", "to target URL: <a href=\"https://tictail.com", "Start selling on Tictail."]
     },
     {
         "name":"campaignmonitor",
