@@ -47,7 +47,7 @@ def sub_check(cname,subdomain):
                     elif status_code == 200:
                         for fingerprint_str in fingerprint_lists:
                             if fingerprint_str in response_text:
-                                print('[+]vulns:' + subdomain ',cname:' + cname)
+                                print('[+]vulns:' + subdomain + ',cname:' + cname)
                             else:
                                 break
                 else:
