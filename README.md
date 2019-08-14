@@ -36,7 +36,7 @@ python subdomain_takeover.py -u <target>
 ## 开发日志 ##
 
 - 2019/08/13 初步功能完成。
-- 2019/08/14 相关知识总结完成。
+- 2019/08/14 相关知识总结完成，指纹优化。
 
 ## 待完成 ##
 
@@ -51,7 +51,7 @@ python subdomain_takeover.py -u <target>
 
 ## 感谢 ##
 
-1. 感谢[SubOver](https://github.com/Ice3man543/SubOver)提供的指纹列表，以及[OneForAll](https://github.com/shmilylty/OneForAll)项目中各位师傅的积极交流。
+1. 感谢[SubOver](https://github.com/Ice3man543/SubOver)、[subjack](https://github.com/haccer/subjack/)提供的指纹列表，以及[OneForAll](https://github.com/shmilylty/OneForAll)项目中各位师傅的积极交流。
 2. 感谢IFBBPROkyle师傅提供的域名。
 2. 感谢我的女朋友，假如没有你的陪伴，我应该早写完了。
 
