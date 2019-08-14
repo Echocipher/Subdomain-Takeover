@@ -20,6 +20,10 @@ blog：https://echocipher.github.io
 
 > Github, Heroku, Unbounce, Tumblr, Shopify, Instapage, Desk, Campaignmonitor, Cargocollective, Statuspage, Amazonaws, Cloudfront, Bitbucket, Smartling, Acquia, Fastly, Pantheon, Zendesk, Uservoice, Ghost, Freshdesk, Pingdom, Tilda, Wordpress, Teamwork, Helpjuice, Helpscout, Cargo, Feedpress, Surge, Surveygizmo, Mashery, Intercom, Webflow, Kajabi, Thinkific, Tave, Wishpond, Aftership, Aha, Brightcove, Bigcartel, Activecompaign, Compaignmonitor, Acquia, Proposify, Simplebooklet, Getresponse, Vend, Jetbrains, Azure
 
+并且支持以下服务自动接管：
+
+> Github
+
 由于恰好与个人需求重叠，便提上了日程，目前还处在开发阶段，由于是为已有框架写的一个模块，目前框架内已有并发部分，因此此处只是简单的功能函数，代码会慢慢完善，日后会与个人其他项目结合，优化期间如果您有什么好的建议或遇到了BUG，请联系我：echocipher@163.com，期待与您的交流。
 
 ## 使用说明 ##
@@ -29,19 +33,22 @@ git clone https://github.com/Echocipher/Subdomain-Takeover.git
 cd Subdomain-Takeover/
 pip install -r requirements.txt
 python subdomain_takeover.py -u <target>
+python subdomain_takerover.py -u <target> -c True
 ```
 
 ![usage](https://github.com/Echocipher/Subdomain-Takeover/blob/master/pic/usage.png)
+![auto_takeover](https://github.com/Echocipher/Subdomain-Takeover/blob/master/pic/auto_takeover.jpeg)
 
 ## 开发日志 ##
 
 - 2019/08/13 初步功能完成。
 - 2019/08/14 相关知识总结完成，指纹优化。
+- 2019/08/15 Github自动接管完成。
 
 ## 待完成 ##
 
 1. ~~指纹完善，服务商识别优化~~（2019/08/14）
-2. 自动接管
+2. ~~自动接管~~（2019/08/15）
 3. ~~相关知识整理总结~~（2019/08/14 详情请访问[Subdomain-Takeover](https://echocipher.github.io/2019/08/14/Subdomain-takeover/)）
 4. 判断逻辑完善
 5. 支持多个目标检测，多进程+协程的实现
