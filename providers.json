@@ -55,14 +55,9 @@
         "response":["NoSuchBucket", "The specified bucket does not exist"]
     },
     {
-        "name":"cloudfront",
-        "cname":["cloudfront.net"],
-        "response":["The request could not be satisfied", "ERROR: The request could not be satisfied"]
-    },
-    {
         "name":"bitbucket",
         "cname":["bitbucket.org"],  
-        "response":["The page you have requested does not exist"]
+        "response":["The page you have requested does not exist","Repository not found"]
     },
     {
         "name":"smartling",
@@ -72,7 +67,7 @@
     {
         "name":"acquia",
         "cname":["acquia.com"],
-        "response":["If you are an Acquia Cloud customer and expect to see your site at this address"]
+        "response":["If you are an Acquia Cloud customer and expect to see your site at this address","The site you are looking for could not be found."]
     },
     {
         "name":"fastly",
@@ -87,7 +82,7 @@
     {
         "name":"zendesk",
         "cname":["zendesk.com"],
-        "response":["<title>Help Center Closed | Zendesk</title>", "Help Center Closed"]
+        "response":["Help Center Closed"]
     },
     {
         "name":"uservoice",
@@ -215,16 +210,6 @@
         "response":["Double check the URL or <a href=\"mailto:help@createsend.com"]
     },
     {
-        "name":"acquia",
-        "cname":["acquia-test.co"],
-        "response":["The site you are looking for could not be found."]
-    },
-    {
-        "name":"proposify",
-        "cname":["proposify.biz"],
-        "response":["If you need immediate assistance, please contact <a href=\"mailto:support@proposify.biz"]
-    },
-    {
         "name":"simplebooklet",
         "cname":["simplebooklet.com"],
         "response":["We can't find this <a href=\"https://simplebooklet.com"]
@@ -242,11 +227,23 @@
     {
         "name":"jetbrains",
         "cname":["myjetbrains.com"],
-        "response":["is not a registered InCloud YouTrack."]
+        "response":["is not a registered InCloud YouTrack.","is not a registered InCloud YouTrack."]
     },
     {
         "name":"azure",
-        "cname":["azurewebsites.net"],
+        "cname":["azurewebsites.net",
+            ".cloudapp.net",
+            ".cloudapp.azure.com",
+            ".trafficmanager.net",
+            ".blob.core.windows.net",
+            ".azure-api.net",
+            ".azurehdinsight.net",
+            ".azureedge.net"],
         "response":["404 Web Site not found"]
+    },
+    {
+        "name":"readme",
+        "cname":["readme.io"],
+        "response":["Project doesnt exist... yet!"]
     }
 ]
