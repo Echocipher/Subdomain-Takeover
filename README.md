@@ -18,7 +18,7 @@ blog：https://echocipher.github.io
 
 本项目是我为[OneForAll](https://github.com/shmilylty/OneForAll)准备的一个模块，为方便使用，特意提取出来可以单独使用，，用于检测子域名接管风险，相关内容可以在我的博客中查看（待完成），目前支持以下服务检测：
 
-> Github, Heroku, Unbounce, Tumblr, Shopify, Instapage, Desk, Tictail, Campaignmonitor, Cargocollective, Statuspage, Amazonaws, Cloudfront, Bitbucket, Smartling, Acquia, Fastly, Pantheon, Zendesk, Uservoice, Ghost, Freshdesk, Pingdom, Tilda, Wordpress, Teamwork, Helpjuice, Helpscout, Cargo, Feedpress, Surge, Surveygizmo, Mashery, Intercom, Webflow, Kajabi, Thinkific, Tave, Wishpond, Aftership, Aha, Brightcove, Bigcartel, Activecompaign, Compaignmonitor, Acquia, Proposify, Simplebooklet, Getresponse, Vend, Jetbrains, Azure
+> Github, Heroku, Unbounce, Tumblr, Shopify, Instapage, Desk, Campaignmonitor, Cargocollective, Statuspage, Amazonaws, Cloudfront, Bitbucket, Smartling, Acquia, Fastly, Pantheon, Zendesk, Uservoice, Ghost, Freshdesk, Pingdom, Tilda, Wordpress, Teamwork, Helpjuice, Helpscout, Cargo, Feedpress, Surge, Surveygizmo, Mashery, Intercom, Webflow, Kajabi, Thinkific, Tave, Wishpond, Aftership, Aha, Brightcove, Bigcartel, Activecompaign, Compaignmonitor, Acquia, Proposify, Simplebooklet, Getresponse, Vend, Jetbrains, Azure
 
 由于恰好与个人需求重叠，便提上了日程，目前还处在开发阶段，由于是为已有框架写的一个模块，目前框架内已有并发部分，因此此处只是简单的功能函数，代码会慢慢完善，日后会与个人其他项目结合，优化期间如果您有什么好的建议或遇到了BUG，请联系我：echocipher@163.com，期待与您的交流。
 
