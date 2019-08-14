@@ -40,7 +40,7 @@ python subdomain_takeover.py -u <target>
 
 ## 待完成 ##
 
-1. 指纹完善，服务商识别优化
+1. ~~指纹完善~~（2019/08/14），服务商识别优化
 2. 自动接管
 3. ~~相关知识整理总结~~（2019/08/14 详情请访问[Subdomain-Takeover](https://echocipher.github.io/2019/08/14/Subdomain-takeover/)）
 4. 判断逻辑完善
