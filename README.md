@@ -16,7 +16,7 @@ blog：https://echocipher.github.io
 
 ## 关于Subdomain-Takerover
 
-本项目是我为[OneForAll](https://github.com/shmilylty/OneForAll)准备的一个模块，为方便使用，特意提取出来可以单独使用，，用于检测子域名接管风险，相关内容可以在[Subdomain-Takeover](https://echocipher.github.io/2019/08/14/Subdomain-takeover/)查看，目前支持以下服务检测：
+本项目是我为[OneForAll](https://github.com/shmilylty/OneForAll)准备的一个模块，为方便使用，特意提取出来单独使用，用于检测子域名接管风险，相关内容可以在[Subdomain-Takeover](https://echocipher.github.io/2019/08/14/Subdomain-takeover/)查看，目前支持以下服务检测：
 
 > Github, Heroku, Unbounce, Tumblr, Shopify, Instapage, Desk, Campaignmonitor, Cargocollective, Statuspage, Amazonaws, Cloudfront, Bitbucket, Smartling, Acquia, Fastly, Pantheon, Zendesk, Uservoice, Ghost, Freshdesk, Pingdom, Tilda, Wordpress, Teamwork, Helpjuice, Helpscout, Cargo, Feedpress, Surge, Surveygizmo, Mashery, Intercom, Webflow, Kajabi, Thinkific, Tave, Wishpond, Aftership, Aha, Brightcove, Bigcartel, Activecompaign, Compaignmonitor, Acquia, Proposify, Simplebooklet, Getresponse, Vend, Jetbrains, Azure
 
