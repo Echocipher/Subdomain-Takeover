@@ -50,7 +50,7 @@ Repo:
 
 其中`user`为我们在Github注册的用户名，`token`为我们在Github上的个人访问令牌，要确保此令牌有创建存储库、引用、修改内容等权限，你可以在这里创建令牌：https://github.com/settings/tokens
 
-注意：当我们选择使用自动接管功能后，首次创建接管库请访问https://github.com/<username>/<repo_name>/settings 将Github Pages的source选项设置为master branch
+注意：当我们选择使用自动接管功能后，首次创建接管库请访问https://github.com/[username]/[repo_name]/settings 将Github Pages的source选项设置为master branch
 
 ## 运行截图 ##
 ![usage](https://github.com/Echocipher/Subdomain-Takeover/blob/master/pic/usage.png)
@@ -72,6 +72,7 @@ Repo:
 6. 全站爬虫模块的联动
 7. Broken Link Hijacking
 8. 域名监控服务
+9. 使用视频录制
 
 ## 感谢 ##
 
