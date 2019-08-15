@@ -35,7 +35,24 @@ pip install -r requirements.txt
 python subdomain_takeover.py -u <target>
 python subdomain_takerover.py -u <target> -c True
 ```
+其中`-h`参数可以查看帮助，`-u`参数后面跟待检测目标，`-c`参数为自动接管功能选项，非必选选项，当它的值为True时，可以完成自动接管的操作（目前仅支持Github），**注意：默认情况下，不允许使用`-c`参数，本函数仅作为安全人员对已有授权项目完成测试工作和学习交流使用，如作他用所承受的法律责任一概与作者无关，下载使用即代表同意作者观点**
 
+如果选择使用自动接管功能，则需要对`config.yml`进行配置：
+
+```
+tokens: 
+  - name: github
+    user: Echocipher
+    token: d255c6dd17e4b3bd3095106343b5cd7c5457976f
+Repo: 
+  - name: my.subdomain.takerover
+```
+
+其中`user`为我们在Github注册的用户名，`token`为我们在Github上的个人访问令牌，要确保此令牌有创建存储库、引用、修改内容等权限，你可以在这里创建令牌：https://github.com/settings/tokens
+
+注意：当我们选择使用自动接管功能后，首次创建接管库请访问https://github.com/<username>/<repo_name>/settings 将Github Pages的source选项设置为master branch
+
+## 运行截图 ##
 ![usage](https://github.com/Echocipher/Subdomain-Takeover/blob/master/pic/usage.png)
 ![auto_takeover](https://github.com/Echocipher/Subdomain-Takeover/blob/master/pic/auto_takeover.jpeg)
 
