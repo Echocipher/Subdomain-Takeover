@@ -56,6 +56,10 @@ Repo:
 ![check](https://github.com/Echocipher/Subdomain-Takeover/blob/master/pic/check.jpg)
 ![auto_takeover](https://github.com/Echocipher/Subdomain-Takeover/blob/master/pic/takeover.jpg)
 
+## 使用视频 ##
+
+https://youtu.be/BXcOrS21KGs
+
 ## 开发日志 ##
 
 - 2019/08/13 初步功能完成。
