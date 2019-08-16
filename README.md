@@ -56,16 +56,6 @@ Repo:
 ![check](https://github.com/Echocipher/Subdomain-Takeover/blob/master/pic/check.jpg)
 ![auto_takeover](https://github.com/Echocipher/Subdomain-Takeover/blob/master/pic/takeover.jpg)
 
-## 使用视频 ##
-
-<iframe 
-    height=450 
-    width=800 
-    src="http://player.youku.com/embed/XMzMxMjE0MjY4NA==" 
-    frameborder=0 
-    allowfullscreen>
-</iframe>
-
 ## 开发日志 ##
 
 - 2019/08/13 初步功能完成。
