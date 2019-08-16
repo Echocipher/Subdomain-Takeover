@@ -98,10 +98,14 @@ def github_takeover(url):
 
 # 发起请求
 def url_get(url):
-    r = requests.get(url,HEADERS,timeout=5)
-    status_code = r.status_code
-    response_text = r.content.decode('utf-8')
-    return status_code,response_text
+    try:
+        r = requests.get(url=url,headers=HEADERS,timeout=5)
+        status_code = r.status_code
+        response_text = r.content.decode('utf-8')
+        return status_code,response_text
+    except:
+        cprint('[*]网络连接超时，请稍后重试','yellow','on_red')
+        sys.exit(2)
 
 # 指纹读取 存储到json_dicts中
 def providers_read():
