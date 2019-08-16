@@ -52,8 +52,9 @@ Repo:
 
 
 ## 运行截图 ##
-![usage](https://github.com/Echocipher/Subdomain-Takeover/blob/master/pic/usage.png)
-![auto_takeover](https://github.com/Echocipher/Subdomain-Takeover/blob/master/pic/auto_takeover.jpeg)
+![usage](https://github.com/Echocipher/Subdomain-Takeover/blob/master/pic/help.jpg)
+![check](https://github.com/Echocipher/Subdomain-Takeover/blob/master/pic/check.jpg)
+![auto_takeover](https://github.com/Echocipher/Subdomain-Takeover/blob/master/pic/takeover.jpg)
 
 ## 开发日志 ##
 
