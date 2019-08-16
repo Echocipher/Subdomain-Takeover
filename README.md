@@ -42,15 +42,14 @@ python subdomain_takerover.py -u <target> -c True
 ```
 tokens: 
   - name: github
-    user: Echocipher
-    token: d255c6dd17e4b3bd3095106343b5cd7c5457976f
+    user: Github用户名
+    token: Github Token值
 Repo: 
   - name: my.subdomain.takerover
 ```
 
 其中`user`为我们在Github注册的用户名，`token`为我们在Github上的个人访问令牌，要确保此令牌有创建存储库、引用、修改内容等权限，你可以在这里创建令牌：https://github.com/settings/tokens
 
-注意：当我们选择使用自动接管功能后，首次创建接管库请访问https://github.com/[username]/[repo_name]/settings 将Github Pages的source选项设置为master branch
 
 ## 运行截图 ##
 ![usage](https://github.com/Echocipher/Subdomain-Takeover/blob/master/pic/usage.png)
@@ -61,6 +60,7 @@ Repo:
 - 2019/08/13 初步功能完成。
 - 2019/08/14 相关知识总结完成，指纹优化。
 - 2019/08/15 Github自动接管完成。
+- 2019/08/16 Github自动接管，已支持全自动接管
 
 ## 待完成 ##
 
@@ -72,12 +72,12 @@ Repo:
 6. 全站爬虫模块的联动
 7. Broken Link Hijacking
 8. 域名监控服务
-9. 使用视频录制
+9. ~~视频录制~~ （2019/08/16）
 
 ## 感谢 ##
 
 1. 感谢[SubOver](https://github.com/Ice3man543/SubOver)、[subjack](https://github.com/haccer/subjack/)提供的指纹列表，以及[OneForAll](https://github.com/shmilylty/OneForAll)项目中各位师傅的积极交流。
-2. 感谢IFBBPROkyle师傅提供的域名。
+2. 感谢IFBBPROkyle师傅以及群主大人提供的域名。
 2. 感谢我的女朋友，假如没有你的陪伴，我应该早写完了。
 
 ## 说明 ##
