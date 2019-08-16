@@ -1,6 +1,5 @@
 tokens: 
   - name: github
-    user: Echocipher
-    token: 0d1e5cdac58b97ac642dbfecf8f11f3e5c016628
-Repo: 
-  - name: my.subdomain.takerover
+    user: Github用户名
+    token: Github Token
+
