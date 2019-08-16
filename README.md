@@ -56,6 +56,11 @@ Repo:
 ![check](https://github.com/Echocipher/Subdomain-Takeover/blob/master/pic/check.jpg)
 ![auto_takeover](https://github.com/Echocipher/Subdomain-Takeover/blob/master/pic/takeover.jpg)
 
+## 使用视频 ##
+<video id="video" controls="" preload="none" poster="http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.jpg">
+<source id="mp4" src="https://v.qq.com/x/page/h0705nol8su.html" type="video/mp4">
+</video>
+
 ## 开发日志 ##
 
 - 2019/08/13 初步功能完成。
