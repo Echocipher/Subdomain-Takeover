@@ -57,9 +57,14 @@ Repo:
 ![auto_takeover](https://github.com/Echocipher/Subdomain-Takeover/blob/master/pic/takeover.jpg)
 
 ## 使用视频 ##
-<video id="video" controls="" preload="none" poster="http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.jpg">
-<source id="mp4" src="https://v.qq.com/x/page/h0705nol8su.html" type="video/mp4">
-</video>
+
+<iframe 
+    height=450 
+    width=800 
+    src="http://player.youku.com/embed/XMzMxMjE0MjY4NA==" 
+    frameborder=0 
+    allowfullscreen>
+</iframe>
 
 ## 开发日志 ##
 
