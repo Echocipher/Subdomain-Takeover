@@ -72,7 +72,7 @@ https://youtu.be/BXcOrS21KGs
 1. ~~指纹完善，服务商识别优化~~（2019/08/14）
 2. ~~自动接管~~（2019/08/15）
 3. ~~相关知识整理总结~~（2019/08/14 详情请访问[Subdomain-Takeover](https://echocipher.github.io/2019/08/14/Subdomain-takeover/)）
-4. 判断逻辑完善
+4. ~~判断逻辑完善~~ （2019/08/18）
 5. 支持多个目标检测，多进程+协程的实现
 6. 全站爬虫模块的联动
 7. Broken Link Hijacking
