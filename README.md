@@ -44,8 +44,6 @@ tokens:
   - name: github
     user: Github用户名
     token: Github Token值
-Repo: 
-  - name: my.subdomain.takerover
 ```
 
 其中`user`为我们在Github注册的用户名，`token`为我们在Github上的个人访问令牌，要确保此令牌有创建存储库、引用、修改内容等权限，你可以在这里创建令牌：https://github.com/settings/tokens
@@ -73,7 +71,7 @@ https://youtu.be/BXcOrS21KGs
 2. ~~自动接管~~（2019/08/15）
 3. ~~相关知识整理总结~~（2019/08/14 详情请访问[Subdomain-Takeover](https://echocipher.github.io/2019/08/14/Subdomain-takeover/)）
 4. ~~判断逻辑完善~~ （2019/08/18）
-5. 支持多个目标检测，多进程+协程的实现
+5. ~~支持多个目标检测，多进程+协程的实现~~ （2019/08/20 精灵师傅已经加入到[OneForAll](https://github.com/shmilylty/OneForAll)）
 6. 全站爬虫模块的联动
 7. Broken Link Hijacking
 8. 域名监控服务
