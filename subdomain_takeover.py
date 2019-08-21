@@ -169,6 +169,7 @@ def main(argv):
 
     A checking subdomain takeover tool,For study only, do not test illegally
 
+                    Usage: python subdomain_takeover.py -h
 
         '''
         )
