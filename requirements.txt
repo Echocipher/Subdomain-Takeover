@@ -1,4 +1,4 @@
 dnspython==1.15.0
 requests==2.22.0
 termcolor==1.1.0
-PyYAML==5.1.2
+PyYAML==5.4
